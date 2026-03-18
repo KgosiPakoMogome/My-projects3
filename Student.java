@@ -17,6 +17,6 @@ public class Student extends Person{
     }
     @Override
     public String getInfo(){
-        return getInfo() + "Gpa :" + gpa;
+        return super.getInfo() + "Gpa :" + gpa;
     }
 }
